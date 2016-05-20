@@ -122,6 +122,8 @@ h1,h2,h3,h4,h5,h6{
 	margin:0.5em 0;
 }
 
+/* SEARCH BAR STYLING */
+
 #newsletter {
 	padding: 5em 0;
 	text-align: center;
@@ -168,13 +170,129 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+/* FOOTER STYLING */
 
+#main_footer {
+	padding: 2.5em 0;
+	text-align: center;
+}
 
+#main_footer .logo {
+	text-transform: uppercase;
+	font-size: 1.15em;
+	font-weight:700;
+}
 
+#main_footer .logo span {
+	font-weight: 300;
+	color: #73e298;
+}
 
+#main_footer .copyright {
+	color: #8b8b9f;
+	font-size: .75em;
+	margin: 0;
+}
 
+#main_footer .links {
+	display: inline;
+}
 
+#main_footer .links a {
+	color: #8b8b9f;
+	font-size: .75em;
+	text-decoration: none;
+	margin: 0 .5em;
+}
 
+#main_footer .links a:hover {
+	color: #73e298;
+}
 
+/* OPTIONAL: BANNER SECTION TO DISPLAY IMAGE OF MOVIE*/
+
+#banner {
+	background:url(../images/banner_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding: 6.5em 0;
+}
+
+#banner #banner_content_wrapper {
+	width: 900px;
+	max-width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner #poster {
+	width: 275px;
+	position: relative;
+	float: left;
+}
+
+#banner #poster .featured_image {
+	width: 100%;
+	max-width: 100%;
+	border-radius: .5em;
+	-webkit-box-shadow: 0px 0px 76px 0px rgba(0,0,0,0.47);
+	-moz-box-shadow:0px 0px 76px 0px rgba(0,0,0,0.47);
+	box-shadow: 0px 0px 76px 0px rgba(0,0,0,0.47);
+}
+
+#banner #poster .play_button {
+	position: absolute;
+	width: 80px;
+	left: 50%;
+	top: 50%;
+	margin: -40px 0 0 -40px;
+}
+
+#banner #content {
+	float: left;
+	width: 500px;
+	margin-left: 100px;
+}
+
+#banner #content .title {
+	display: inline;
+	font-size: 1.75em;
+	color: #fff;
+}
+
+#banner #content .ratings {
+	display: inline;
+	margin-left: 1em;
+}
+
+#banner #content .ratings i {
+	color: #73e298;
+	font-size: 1.35em;
+	margin: 0 .15em;
+}
+
+#banner #content .ratings .inactive {
+	color:#48494d;
+}
+
+#banner #content .description {
+	color: #bbbebf;
+	font-size: 1em;
+	line-height: 2;
+}
+
+#banner #content .info {
+	color: #fff;
+	font-size: .8em;
+	font-weight: 700;
+	margin-top: 3em;
+}
+
+#banner #content .info span {
+	margin: 0 .5em;
+}
 
 
