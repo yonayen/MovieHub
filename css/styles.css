@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: 'Open Sans', sans-serif
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear:both;
+}
+
+.wrapper {
+	width: 1440px;
+	max-width: 90%;
+	margin:0 auto;
+}
+
