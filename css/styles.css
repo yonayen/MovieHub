@@ -61,3 +61,120 @@ h1,h2,h3,h4,h5,h6{
 
 /* TOP MOVIES AND SHOWS */
 
+#top_movies,
+#top_shows {
+	padding: 5em 0;
+}
+
+#top_movies header,
+#top_shows header {
+	padding:0 0 1.5em 0;
+}
+
+#top_movies header h2,
+#top_movies header .view_more,
+#top_shows header h2,
+#top_shows header .view_more {
+	display:inline;
+}
+
+#top_movies header h2,
+#top_shows header h2 {
+	font-size: 1.75em;
+}
+
+#top_movies header .view_more,
+#top_shows header .view_more {
+	float: right;
+	font-size:.8em;
+	margin:.75em 3.5% 0 0;
+}
+
+#top_movies {
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.row {
+	width: 100%;
+}
+
+.row .post {
+	width: 14%;
+	float: left;
+	margin-right: 2.5%;
+}
+
+.row .post img {
+	width: 100%;
+	max-width: 100%;
+	border-radius:.5em;
+}
+
+.row .post .title {
+	font-size: 1.25em;
+	margin: 1em 0 0 0;
+	color: #252529;
+}
+
+.row .post .post_info {
+	font-size: .75em;
+	color: #8b8b9f;
+	margin:0.5em 0;
+}
+
+#newsletter {
+	padding: 5em 0;
+	text-align: center;
+	background: #2a2a2e;
+}
+
+#newsletter .newsletter_inner {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#newsletter h2{ 
+	font-size: 1.75em;
+	color: #fff;
+}
+
+#newsletter .sign_up_form {
+	margin-top: 3em;
+}
+
+#newsletter .sign_up_form input[type="text"] {
+	width: 48%;
+	margin: 0 .5%;
+	height: 3.25em;
+	border: none;
+	outline: none;
+	border-radius: .3em;
+	background: #404043;
+	padding:.5em 1.25em;
+	font-size: .8em;
+	color: #fff;
+}
+
+#newsletter .sign_up_form .button {
+	border: none;
+	outline: none;
+	padding: 1em 4.5em;
+	border-radius: 2em;
+	background: #73e298;
+	color: #fff;
+	font-weight: 700;
+	font-size: .9em;
+	margin-top: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
