@@ -1,7 +1,7 @@
 $(function(){
-  $('.sign_up_form').submit(function(event){
-    event.preventDefault();
+  $('#search-button').on("click", function(event){
     var searchTerm = $('#query').val();
+    $('#top_movies .clearfix h2').text(searchTerm);
     getRequest(searchTerm);
   });
 });
@@ -13,10 +13,19 @@ function getRequest(searchTerm){
 }
 
 function showResults(results){
+  $('#top_movies .wrapper .row').remove()
   var html = "";
   $.each(results, function(index,value){
-    html += '<img src="' + value.Poster + '"/>';
+    if (index < 6) {
+      html += '<div class="row">'+
+          '<div class="post">'+
+            '<img src="' + value.Poster + '"/>'+
+            '<h3 class="title">' + value.Title + '</h3>'+
+            '<p class="post_info">' + value.Year + ' | ' + value.Type + '</p>'+
+          '</div>'+
+        '</div>';
+    }
     console.log(value.Title);
   });
-  $('#top_movies').html(html);
+  $('#top_movies .wrapper').append(html);
 }
