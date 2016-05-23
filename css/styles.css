@@ -161,12 +161,12 @@ h1,h2,h3,h4,h5,h6{
 	border: none;
 	outline: none;
 	padding: 1em 4.5em;
-	border-radius: 2em;
+	border-radius: 0.3em;
 	background: #73e298;
 	color: #fff;
 	font-weight: 700;
 	font-size: .9em;
-	margin-top: 3em;
+	margin-top: 0em;
 }
 
 
