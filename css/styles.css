@@ -141,7 +141,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #newsletter .sign_up_form {
-	margin-top: 3em;
+	margin-top: 0;
 }
 
 #newsletter .sign_up_form input[type="text"] {
