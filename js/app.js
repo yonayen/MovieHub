@@ -19,7 +19,7 @@ function showResults(results){
     if (index < 6) {
       html += '<div class="row">'+
           '<div class="post">'+
-            '<img src="' + value.Poster + '"/>'+
+            '<img src="' + value.Poster.replace("https://", "http://") + '"/>'+
             '<h3 class="title">' + value.Title + '</h3>'+
             '<p class="post_info">' + value.Year + ' | ' + value.Type + '</p>'+
           '</div>'+
